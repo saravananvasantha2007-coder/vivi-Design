@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4EED9" />
+      <stop offset="35%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#B38F24" />
+      <stop offset="100%" stop-color="#664F13" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="46" fill="#1F1209" stroke="url(#goldGrad)" stroke-width="4" />
+  <!-- Diamond / Jewel shape -->
+  <polygon points="50,22 74,38 74,48 50,78 26,48 26,38" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linejoin="round" />
+  <polygon points="50,22 62,38 50,78 38,38" fill="none" stroke="url(#goldGrad)" stroke-width="2" />
+  <line x1="26" y1="38" x2="74" y2="38" stroke="url(#goldGrad)" stroke-width="2" />
+  <!-- Sparkles -->
+  <path d="M50 12 L52 17 L57 19 L52 21 L50 26 L48 21 L43 19 L48 17 Z" fill="#D4AF37" />
+</svg>
